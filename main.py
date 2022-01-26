@@ -1,2 +1,2 @@
 import streamlit as sl
-sl.Title("Hello")
+sl.title("Hello")
