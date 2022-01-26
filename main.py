@@ -1,2 +1,2 @@
 import streamlit as sl
-sl.write("Hello")
+sl.Title("Hello")
