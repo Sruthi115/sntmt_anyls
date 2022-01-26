@@ -4,7 +4,7 @@ import base64
 from PIL import Image
 #import sklearn
 #df = pd.read_csv('/content/drive/My Drive/amazonreviews.tsv',sep='\t')
-model=pickle.load(open('/sntmt_anyls/sentiment_analysis_models.p','rb'))
+model=pickle.load(open('sentiment_analysis_models.p','rb'))
 
 st.set_page_config(page_title="Sentiment Analysis Web App",page_icon="",layout="centered",initial_sidebar_state="expanded",)
 st.title('Sentiment Analysis Model')
