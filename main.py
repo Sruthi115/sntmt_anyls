@@ -2,6 +2,7 @@ import pickle
 import streamlit as st
 import base64
 from PIL import Image
+import sklearn
 #df = pd.read_csv('/content/drive/My Drive/amazonreviews.tsv',sep='\t')
 model=pickle.load(open('sentiment_analysis_models.p','rb'))
 
